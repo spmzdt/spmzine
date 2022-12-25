@@ -1,2 +1,2 @@
 # spmdmn
-spm domain content
+spmzdt net art project
