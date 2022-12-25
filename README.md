@@ -1,2 +1,2 @@
 # spmdmn
-spm domaim content
+spm domain content
