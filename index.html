@@ -35,20 +35,19 @@ body {
 nav {
   float: right;
   font-size: 12pt;
-  color: #F0F8FF;
+  letter-spacing: 5px;
+  color: #4B4B4B;
   }
 
 nav ul {
-  margin: 10px 0px;
+  margin: 25px 0px;
   list-style: none;
   }
 
 nav li {
-  display: inline;
-  }
-
-li {
-  margin-right: 9px;
+  display: block;
+  text-align: left;
+  margin-right: 90px;
   }
 
 a {
@@ -66,6 +65,16 @@ a:visited {
   color: #F0F8FF;
 	}
 
+a.content {
+  text-decoration: none;
+  color: #F0F8FF;
+  }
+
+a.content:hover {
+  text-decoration: none;
+  color: #00BEF0;
+  }
+
 a.content-footer:visited {
   text-decoration: none;
   color: #F0F8FF;
@@ -78,11 +87,12 @@ a.content-footer:hover {
 
 .container-slog {
   text-align: left;
-  position:absolute;
-  top: 2px;
+  position: absolute;
+  top: 10px;
 	left: 800px;
+  z-index: 2;
   font-size: 11pt;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   color: #4B4B4B;
   }
 
@@ -93,6 +103,7 @@ a.content-footer:hover {
   padding: 3px 0px 0px 0px;
   margin: 0 auto;
   background: #AABFAA;
+  z-index: 1;
   font-size: 11pt;
   letter-spacing: 3px;
   word-spacing: 6px;
@@ -157,8 +168,7 @@ a.content-footer:hover {
   border: 0px;
   margin: 0 auto;
   text-align: center;
-  line-height: 0.55em;
-  background: blue;
+  background: #FFFFFF;
   color: #000000;
   }
 
@@ -192,17 +202,23 @@ a.content-footer:hover {
 <body>
 
 <header>
+
 <div class="container-head">
-<div class="logo"><b><a href="https://spamizdat.eth.limo" class="content" target="_blank">SPAMIZDAT</a></b></div>
+<div class="logo"><b><a href="https://app.ens.domains/name/spamizdat.eth" class="content" target="_blank">SPAMIZDAT</a></b></div>
+
+<nav>
+<ul>
+<li>don't spam</li>
+<li>let's spamizdat</li>
+</ul>
+</nav>
+
 </div>
 </header>
 
 <main>
 
-<div class="container-slog">
-<p>don't spam<br>
-let's spamizdat</p>
-</div>
+<div class="container-slog"></div>
 
 <div class="container-border-txt">crypto ironic crypto poetic net art project in crypto space</div>
 
@@ -218,11 +234,20 @@ decentralized * international
 <div class="container-border"></div>
 
 <div class="container-spam">
+<div class="spam-image">
+<img src="content/images/Spamizdat-2_BTC_Ethereum.png" width="850" height="850" alt="Spamizdat 2 - (B)(T)(C)">
+</div>
+<div class="spam-txt"><p>(B)(T)(C)</p><br>
+This is the second issue of Spamizdat — the snapshot of the transformation of 'corp' into 'core'. Or into 'or'?<br>
+</div>
+</div>
 
+<div class="container-border"></div>
+
+<div class="container-spam">
 <div class="spam-image">
 <img src="content/images/Spamizdat-1_WINTERROR_Ethereum.gif" width="850" height="850" alt="Spamizdat 1 - WINTERROR">
 </div>
-
 <div class="spam-txt"><p>WINTERROR</p><br>
 This issue of Spamizdat is dedicated to crypto winter. With all temperature minuses of the cold season, this is a great time to reflect on the past and the future. And a good time to be creative.<br>
 </div>
@@ -236,7 +261,7 @@ This issue of Spamizdat is dedicated to crypto winter. With all temperature minu
 
 <footer>
 
-<div class="container-foot">HTML+CSS+IPFS ~ Deployed by <a href="https://spamizdat.eth.limo" class="content-footer" target="_blank">Spamizdat Team</a></div>
+<div class="container-foot">HTML+CSS+IPFS ~ Deployed by <a href="https://app.ens.domains/name/spamizdat.eth" class="content-footer" target="_blank">Spamizdat Team</a></div>
 
 </footer>
 
