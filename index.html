@@ -14,42 +14,6 @@ body {
   text-align:  center;
   }
 
-.container-head {
-  width: 100%;
-  max-width: 850px;
-  height: 177px;
-  padding: 0px;
-  margin: 0 auto;
-  background: #000000;
-  }
-
-.logo {
-  float: left;
-  margin-top: 60px;
-  margin-left: 90px;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-size: 44pt;
-  color: #F0F8FF;
-  }
-
-nav {
-  float: right;
-  font-size: 12pt;
-  letter-spacing: 5px;
-  color: #4B4B4B;
-  }
-
-nav ul {
-  margin: 25px 0px;
-  list-style: none;
-  }
-
-nav li {
-  display: block;
-  text-align: left;
-  margin-right: 90px;
-  }
-
 a {
   text-decoration: none;
   color: #F0F8FF;
@@ -85,15 +49,82 @@ a.content-footer:hover {
   color: #F0F8FF;
   }
 
-.container-slog {
+.container-head {
+  width: 100%;
+  max-width: 850px;
+  height: 177px;
+  padding: 0px;
+  margin: 0 auto;
+  background: #000000;
+  }
+
+.logo {
+  float: left;
+  margin-top: 60px;
+  margin-left: 90px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 44pt;
+  color: #F0F8FF;
+  }
+
+.slogan {
+  float: right;
+  margin-top: 25px;
+  margin-right: 90px;
+  background: transparent;
   text-align: left;
-  position: absolute;
-  top: 10px;
-	left: 800px;
-  z-index: 2;
-  font-size: 11pt;
+  font-family: Courier, monospace;
+  font-size: 12pt;
   letter-spacing: 5px;
-  color: #4B4B4B;
+  color: #636363;
+  }
+
+.container-mp {
+  float: right;
+  max-width: 60px;
+  height: 25px;
+  padding: 0px;
+  border: 0;
+  margin: 60px 30px 0px 0px;
+  background: transparent;
+  }
+
+.container-mp1 {
+  float: left;
+  max-width: 25px;
+  height: 25px;
+  padding: 0px 5px 0px 0px;
+  border: 0;
+  background: transparent;
+  text-align: center;
+  }
+
+.mp1 {
+  max-width: 25px;
+  height: 25px;
+  padding: 0px;
+  border: 0;
+  background: transparent;
+  text-align: center;
+  }
+
+.container-mp2 {
+  float: right;
+  max-width: 25px;
+  height: 25px;
+  padding: 0px 0px 0px 5px;
+  border: 0;
+  background: transparent;
+  text-align: centert;
+  }
+
+.mp2 {
+  max-width: 25px;
+  height: 25px;
+  padding: 0px;
+  border: 0;
+  background: transparent;
+  text-align: center;
   }
 
 .container-border-txt {
@@ -102,7 +133,7 @@ a.content-footer:hover {
   height: 25px;
   padding: 3px 0px 0px 0px;
   margin: 0 auto;
-  background: #AABFAA;
+  background: transparent;
   z-index: 1;
   font-size: 11pt;
   letter-spacing: 3px;
@@ -202,23 +233,28 @@ a.content-footer:hover {
 <body>
 
 <header>
-
 <div class="container-head">
+
 <div class="logo"><b><a href="https://app.ens.domains/name/spamizdat.eth" class="content" target="_blank">SPAMIZDAT</a></b></div>
 
-<nav>
-<ul>
-<li>don't spam</li>
-<li>let's spamizdat</li>
-</ul>
-</nav>
+<div class="slogan">
+don't spam<br>
+let's spamizdat
+</div>
+
+<div class="container-mp">
+<div class="container-mp1">
+<div class="mp1"><a href="https://opensea.io/spamizdat" class="content" target="_blank"><img src="imgs/OpenSea.png" width="25" height="25" alt="OpenSea"></a></div>
+</div>
+<div class="container-mp2">
+<div class="mp2"><a href="https://rarible.com/spamizdat" class="content" target="_blank"><img src="imgs/Rarible.png" width="25" height="25" alt="Rarible"></a></div>
+</div>
+</div>
 
 </div>
 </header>
 
 <main>
-
-<div class="container-slog"></div>
 
 <div class="container-border-txt">crypto ironic crypto poetic net art project in crypto space</div>
 
@@ -235,7 +271,20 @@ decentralized * international
 
 <div class="container-spam">
 <div class="spam-image">
-<img src="content/images/Spamizdat-2_BTC_Ethereum.png" width="850" height="850" alt="Spamizdat 2 - (B)(T)(C)">
+<img src="issues/Spamizdat-3_LEGALIZED_Ethereum.png" width="850" height="850" alt="Spamizdat 3 - LEGALIZED">
+</div>
+<div class="spam-txt"><p>LEGALIZED</p><br>
+The third unlegalized issue of Spamizdat:<br>
+decentralized uncensored unregulated emojionality.<br>
+Do we need centralized emojionality?<br>
+</div>
+</div>
+
+<div class="container-border"></div>
+
+<div class="container-spam">
+<div class="spam-image">
+<img src="issues/Spamizdat-2_BTC_Ethereum.png" width="850" height="850" alt="Spamizdat 2 - (B)(T)(C)">
 </div>
 <div class="spam-txt"><p>(B)(T)(C)</p><br>
 This is the second issue of Spamizdat — the snapshot of the transformation of 'corp' into 'core'. Or into 'or'?<br>
@@ -246,7 +295,7 @@ This is the second issue of Spamizdat — the snapshot of the transformation of 
 
 <div class="container-spam">
 <div class="spam-image">
-<img src="content/images/Spamizdat-1_WINTERROR_Ethereum.gif" width="850" height="850" alt="Spamizdat 1 - WINTERROR">
+<img src="issues/Spamizdat-1_WINTERROR_Ethereum.gif" width="850" height="850" alt="Spamizdat 1 - WINTERROR">
 </div>
 <div class="spam-txt"><p>WINTERROR</p><br>
 This issue of Spamizdat is dedicated to crypto winter. With all temperature minuses of the cold season, this is a great time to reflect on the past and the future. And a good time to be creative.<br>
