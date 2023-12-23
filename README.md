@@ -9,4 +9,4 @@ Crypto Artists of all countries, unite!
 You have nothing to lose but your chains.
 You have a world to win.
 
-Don't spam! Let's spamizdat
+Don't spam, let's spamizdat
